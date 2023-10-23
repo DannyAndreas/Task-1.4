@@ -1,0 +1,178 @@
+@font-face {
+	font-family:"TTLake" ; 
+	src: url(/font/TTLakes-Medium.ttf); }
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 768px;
+  height: 1024px;
+
+
+  font-family: "TTLake";
+}
+
+
+
+
+.main {
+  box-shadow: 16px 0px 52px 0px #0E185033, -2px 0px 4px 0px #454F7E05;
+  width: 320px;
+  height: 1024px;
+  position: fixed;
+}
+.header{
+  height: 75px;
+  display: flex;
+  
+  align-items: center;
+}
+  .header-close{
+    margin: 23px 0 0  24px;
+  }
+  .header-logo{
+    margin: 18.73px 0 0 16.73px;
+
+  }
+  .header-search{
+    margin: 23px 0 0  78.27px;
+
+  }
+
+
+
+  .side{
+    width: 222px;
+    height: 876px;
+    margin: 50px 0 0 24px;
+    padding: 0;
+    list-style-type: none;
+  } 
+   
+    .side-menu {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+      .side-menu_list{
+        margin: 0 15px 32px 0;
+      }
+       .side-menu_list:last-child{
+        margin:0;
+       }  
+       
+
+
+       .high{
+        position: absolute;
+        transform: translate(-24px, -7px);
+        opacity: 0;
+       }
+
+
+       .side-menu_list:hover a{
+        color:#7E7E82;
+       }
+
+      .side-menu_list:hover img{
+          
+          opacity: 1;}
+        
+
+         
+          
+         
+            
+
+.contact{
+  margin-top:268px;
+}
+
+  .bottom-image{
+  
+    display: flex;
+    justify-content: flex-start;
+  }
+  .bottom-img{
+    padding: 8px;
+  }
+  .bottom-img:first-child{
+    padding-left:0;
+  }
+  .bottom-img:last-child{
+    padding-right:0px;
+  }
+
+  .contact-email{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  }
+
+  .contact-number{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+
+.lang{
+  margin-top:20px;
+  display: flex;
+    justify-content: flex-start;
+}
+  .lang_item{
+    padding: 7px;
+  }
+  .lang_item:checked{
+    color:#7E7E82;
+  }
+  .lang_item:first-child{
+    padding-left:0;
+  }
+  .lang_item:last-child{
+    padding-right:0px;
+  }
+      a{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.20000000298023224px;
+      text-align: left;
+      text-decoration:none;
+      color:#1B1C21;
+      }
+
+
+
+
+
+
+
+
+
+   
+
+.buttons{
+    display: inline-flex;
+    
+}
+
+.buttons a{
+    padding: 10px;
+}
+
+.buttons:hover .qaz{
+    opacity: 1;
+}
+
+.buttons a:hover{
+    opacity: 1;
+    background: #000;
+    color: #fff;
+}
+
+.qaz {
+  opacity: 0;}
